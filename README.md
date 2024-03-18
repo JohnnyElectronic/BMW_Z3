@@ -1,4 +1,4 @@
-# BMW Z2 by Tamiya
+# BMW Z3 by Tamiya
 
 ![](img/BMW_Z3_kit.jpg)
 
@@ -12,9 +12,13 @@ LED lighting and an IR Remote have been added to bring this model to life.
 
 This build uses two AVR controllers (ATTiny85 development board). 
 1) ATtiny85 - Front controller. This one controls lighting effects for the front part of the car, responds to IR commands and is mounted under the hood
-2) ATtiny85 - Rear controller. TThis one controls lighting effects for the rear part of the car, responds to IR commands and is mounted in the truck area
+2) ATtiny85 - Rear controller. This one controls lighting effects for the rear part of the car, responds to IR commands and is mounted in the truck area
 
 The same sketch file is used to program both controllers. Comment or uncomment the Z3_BLINK define to program each version.
+```
+//#define Z3_BLINK
+```
+or
 ```
 #define Z3_BLINK
 ```
